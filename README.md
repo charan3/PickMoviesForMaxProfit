@@ -79,3 +79,6 @@ Prerequisites
 3. To run the Flask app run : python app.py
 
 4. Submit input post request to the api hosted on the server using Postman and expect the response.
+
+<img width="1150" alt="Screenshot 2020-07-04 at 7 02 08 PM" src="https://user-images.githubusercontent.com/17749790/86513749-66c03d80-be2a-11ea-84d5-6555645d5e11.png">
+
