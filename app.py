@@ -8,6 +8,7 @@ app = Flask(__name__)
 def pick_movies_to_maximise_profit():
     selected_movies = []
     result = {}
+    movie_amount = 10000000
     input_dict = request.json
     movies = input_dict['movies']
     movies.sort(key=lambda movie: datetime.strptime(movie['end_date'], '%d %b %Y'))
@@ -22,7 +23,7 @@ def pick_movies_to_maximise_profit():
                 selected_movies.append(movies[i])
                 prev_end = curr_end
 
-    result['total_amount'] = len(selected_movies) * 1000
+    result['total_amount'] = len(selected_movies) * movie_amount
     result['selected_movies'] = selected_movies
     return result
 
