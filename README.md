@@ -74,9 +74,9 @@ Sample Output:
 Prerequisites
 1. Postman Download: https://www.postman.com/downloads/
 
-2. Install all the packages using #### pip install -r requirements.txt or install only required #### pip install flask
+2. Install all the packages using ``` pip install -r requirements.txt ``` or install only required ```pip install flask```
 
-3. To run the Flask app run : ###python app.py
+3. To run the Flask app run : ``` python app.py ```
 
 4. Submit input(mentioned) post request to the REST api hosted on the server using Postman and expect the response in json.
 
