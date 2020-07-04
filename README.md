@@ -71,4 +71,11 @@ Sample Output:
     "total_amount": 30000000
 }
 
-Postman Download: https://www.postman.com/downloads/
+Prerequisites
+1. Postman Download: https://www.postman.com/downloads/
+
+2. Install all the packages using pip install -r requirements.txt or install only required pip install flask
+
+3. To run the Flask app run : python app.py
+
+4. Submit input post request to the api hosted on the server using Postman and expect the response.
